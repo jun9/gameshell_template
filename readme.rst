@@ -38,6 +38,7 @@ Clone Game
 Now clone/grab the code from GitHub:
 
 .. code-block:: bash
+
     mkdir -p ~/games/PyGames
     cd ~/games/PyGames
     git clone https://github.com/jun9/gameshell_template.git
