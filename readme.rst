@@ -53,7 +53,7 @@ Run this command to copy over the link:
 
 .. code-block:: bash
 
-    cd ~/games/gameshell_tempate
+    cd ~/games/PyGames/gameshell_template
     sh ./install.sh
 
 Refresh menu
