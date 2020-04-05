@@ -9,7 +9,7 @@ working with the GameShell_.
 Quick overview:
 
 * Install Python 3.6 (No need, 3.7 pre-installed)
-* Install the Arcade library (Do it in install.sh)
+* Install the Arcade library (No need manually, do it in install.sh)
 * Clone the game from GitHub
 * Install link to menu
 * Reload UI
