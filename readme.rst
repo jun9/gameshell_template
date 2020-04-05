@@ -9,7 +9,7 @@ working with the GameShell_.
 Quick overview:
 
 * Install Python 3.6 (No need, 3.7 pre-installed)
-* Install the Arcade library
+* Install the Arcade library (Do it in install.sh)
 * Clone the game from GitHub
 * Install link to menu
 * Restart
@@ -24,11 +24,12 @@ requires > 3.6. So no need to install 3.6.
 Install Arcade
 --------------
 
-Now that we have Python 3.7, we need to install the Arcade library. Do that with:
-
+Now that we have Python 3.7, we need to install the Arcade library. We can do that with:
+Unfortunately, last GameShell OS compatible arcade library version is 1.3.7
+The following step is done in the install.sh in the next step, no need any more.
 .. code-block:: bash
 
-    python3 -m pip install arcade
+    pip3 install arcade==1.3.7
 
 Clone Game
 ----------
@@ -36,8 +37,8 @@ Clone Game
 Now clone/grab the code from GitHub:
 
 .. code-block:: bash
-
-    cd ~/games
+    mkdir -p ~/games/PyGames
+    cd ~/games/PyGames
     git clone https://github.com/jun9/gameshell_template.git
 
 Install the Game
