@@ -72,7 +72,7 @@ You can update the code with:
 
 .. code-block:: bash
 
-    cd ~/games/gameshell_tempate
+    cd ~/launcher/Menu/GameShell/54_PyGames
     git pull
 
 .. _GameShell: https://www.clockworkpi.com/
