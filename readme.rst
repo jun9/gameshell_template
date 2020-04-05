@@ -63,17 +63,6 @@ We installed the link. Use Reload UI menu to reload UI. No reboot needed.
 
 
 
-Update The Code
----------------
-
-Something new on GitHub you want to pull down?
-
-You can update the code with:
-
-.. code-block:: bash
-
-    cd ~/launcher/Menu/GameShell/54_PyGames
-    git pull
 
 .. _GameShell: https://www.clockworkpi.com/
 .. _Arcade: http://arcade.academy/
