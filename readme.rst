@@ -21,7 +21,7 @@ GameShell runs on Debian Linux. Right now, GameShell OS 5.0 uses Python 3.7, and
 requires > 3.6. So no need to install 3.6.
 
 
-Install Arcade
+Install Arcade (Included in install.sh)
 --------------
 
 Now that we have Python 3.7, we need to install the Arcade library. We can do that with:
