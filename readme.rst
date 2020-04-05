@@ -40,9 +40,9 @@ Now clone/grab the code from GitHub:
 
 .. code-block:: bash
 
-    mkdir -p ~/games/PyGames
-    cd ~/games/PyGames
-    git clone https://github.com/jun9/gameshell_template.git
+    mkdir -p ~/launcher/Menu/GameShell/54_PyGames
+    cd ~/launcher/Menu/GameShell/54_PyGames
+    git clone https://github.com/jun9/gameshell_template.git .
 
 
 Install the Game
@@ -53,7 +53,7 @@ Run this command to copy over the link:
 
 .. code-block:: bash
 
-    cd ~/games/PyGames/gameshell_template
+    cd ~/launcher/Menu/GameShell/54_PyGames
     sh ./install.sh
 
 Refresh menu
