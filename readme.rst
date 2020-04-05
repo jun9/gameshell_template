@@ -53,8 +53,7 @@ Run this command to copy over the link:
 .. code-block:: bash
 
     cd ~/games/gameshell_tempate
-    chmod u+x install.sh
-    ./install.sh
+    sh ./install.sh
 
 Reboot
 ------
