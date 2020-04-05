@@ -27,6 +27,7 @@ Install Arcade
 Now that we have Python 3.7, we need to install the Arcade library. We can do that with:
 Unfortunately, last GameShell OS compatible arcade library version is 1.3.7
 The following step is done in the install.sh in the next step, no need any more.
+
 .. code-block:: bash
 
     pip3 install arcade==1.3.7
