@@ -12,7 +12,7 @@ Quick overview:
 * Install the Arcade library (Do it in install.sh)
 * Clone the game from GitHub
 * Install link to menu
-* Restart
+* Reload UI
 
 Install Python 3.6 (No need any more)
 ------------------
@@ -25,12 +25,13 @@ Install Arcade
 --------------
 
 Now that we have Python 3.7, we need to install the Arcade library. We can do that with:
-Unfortunately, last GameShell OS compatible arcade library version is 1.3.7
-The following step is done in the install.sh in the next step, no need any more.
+Unfortunately, last GameShell OS compatible arcade library version is 1.3.7, plus the required pyglet version must be before 1.5.0
+The following step is done in the install.sh in the next step, no need to do it manually.
 
 .. code-block:: bash
 
-    pip3 install arcade==1.3.7
+    pip3 install arcade==1.3.7 pyglet==1.5.0
+    
 
 Clone Game
 ----------
@@ -55,14 +56,12 @@ Run this command to copy over the link:
     cd ~/games/gameshell_tempate
     sh ./install.sh
 
-Reboot
+Refresh menu
 ------
 
-We installed the link. We need to reboot the device to re-look at the links.
+We installed the link. Use Reload UI menu to reload UI. No reboot needed.
 
-.. code-block:: bash
 
-    sudo reboot
 
 Update The Code
 ---------------
