@@ -25,12 +25,12 @@ Install Arcade (Included in install.sh)
 --------------
 
 Now that we have Python 3.7, we need to install the Arcade library. We can do that with:
-Unfortunately, last GameShell OS compatible arcade library version is 1.3.7, plus the required pyglet version must be before 1.5.0
+Unfortunately, last GameShell OS compatible arcade library version is 1.3.4, plus the required pyglet version must be before 1.3.3
 The following step is done in the install.sh in the next step, no need to do it manually.
 
 .. code-block:: bash
 
-    pip3 install arcade==1.3.7 pyglet==1.5.0
+    pip3 install arcade==1.3.4 pyglet==1.3.3
     
 
 Clone Game
